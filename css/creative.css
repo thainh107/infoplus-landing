@@ -1129,10 +1129,6 @@ pre code {
     flex: 0 0 75%;
     max-width: 75%;
   }
-  .col-lg-10 {
-    /* flex: 0 0 83.33333%;
-    max-width: 83.33333%; */
-  }
   .col-lg-11 {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
@@ -9735,4 +9731,20 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+#contact .container .row .container-telephone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .container .row .container-telephone .padding-top {
+  padding-top: 15px;
+}
+
+.fa-facebook-f {
+  font-size: 20px;
+  color: #c7c3c3;
 }
