@@ -521,8 +521,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  width: 30%;
-  /* height: 125px; */
+  width: 100px;
+  height: 100px;
 }
 
 .figure {
@@ -10815,8 +10815,7 @@ header.masthead h1 {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -10873,4 +10872,16 @@ header.masthead h1 {
 
 .details-service {
   padding: 10px;
+}
+
+.service-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
